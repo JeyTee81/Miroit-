@@ -1,0 +1,25 @@
+Django==5.2
+djangorestframework==3.15.2
+django-cors-headers==4.3.1
+# psycopg2-binary pour PostgreSQL (optionnel en développement avec SQLite)
+# psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+Pillow>=10.2.0
+reportlab==4.0.7
+django-filter==23.5
+django-extensions==3.2.3
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+faker==20.1.0
+celery==5.3.4
+redis==5.0.1
+# pyodbc est optionnel - nécessite une compilation et peut ne pas être compatible avec toutes les versions de Python
+# Pour Python 3.8-3.13, installer avec: pip install pyodbc
+# Pour Python 3.14+, utiliser une version précompilée ou downgrader Python
+# pyodbc==5.0.1
+
+# PyInstaller pour créer un exécutable (optionnel)
+# pyinstaller==6.3.0
+
+
